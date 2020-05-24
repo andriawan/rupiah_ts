@@ -29,5 +29,11 @@ Just run from cli
 ```
 deno test
 ```
+
+### Feature Roadmap 
+
+- [x] Rupiah Format
+- [ ] Terbilang
+
 ## **Miscellaneous**
 This work is inspired by gist from https://gist.github.com/faisalman/845309 with refactoring code into more modern javascript way
