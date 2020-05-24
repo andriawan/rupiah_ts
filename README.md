@@ -3,7 +3,7 @@
 
 ## **Installation in Deno**
 ```ts
-import Rupiah from 'https://deno.land/x/rupiah/rupiah.ts'
+import Rupiah from 'https://deno.land/x/rupiah_ts/rupiah.ts'
 
 let rupiah = new Rupiah(350000);
 console.log(rupiah.format);
