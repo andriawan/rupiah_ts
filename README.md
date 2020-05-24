@@ -9,7 +9,7 @@ let rupiah = new Rupiah(350000);
 console.log(rupiah.format);
 ```
 
-## **Set Default Prefix and Suffix**
+## **Set Prefix and Suffix**
 default prefix is configured as ```Rp. ``` and suffix is configured as ```,00``` you can set custom prefix and suffix with this following API
 
 ```ts
