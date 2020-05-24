@@ -10,7 +10,7 @@ console.log(rupiah.format);
 ```
 
 ## **Set Default Prefix and Suffix**
-default prefix is configured as ```Rp .``` and suffix is configured as ```,00``` you can set custom prefix and suffix with this following API
+default prefix is configured as ```Rp. ``` and suffix is configured as ```,00``` you can set custom prefix and suffix with this following API
 
 ```ts
 import Rupiah from 'https://deno.land/x/rupiah/rupiah.ts'
