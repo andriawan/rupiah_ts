@@ -23,3 +23,9 @@ console.log(rupiah.format);
 
 ## **Development**
 This repo is in early development stage. PRs is wellcomed.
+
+## **Test**
+Just run from cli
+```
+deno test
+```
