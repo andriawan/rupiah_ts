@@ -29,3 +29,5 @@ Just run from cli
 ```
 deno test
 ```
+## **Miscellaneous**
+This work is inspired by gist from https://gist.github.com/faisalman/845309 with refactoring code into more modern javascript way
