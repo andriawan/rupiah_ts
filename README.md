@@ -58,4 +58,4 @@ deno test
 - [x] Terbilang
 
 ## **Miscellaneous**
-This work is inspired by gist from https://gist.github.com/faisalman/845309 with refactoring code into more modern javascript way. Terbilang version is inspired by stackoverflow thread https://codereview.stackexchange.com/questions/90349/changing-number-to-words-in-javascript
+This work is inspired by gist from https://gist.github.com/faisalman/845309 with refactoring code into more modern javascript way. Terbilang version is inspired by stackexchange thread https://codereview.stackexchange.com/questions/90349/changing-number-to-words-in-javascript
