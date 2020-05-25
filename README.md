@@ -44,7 +44,7 @@ console.log(rupiah.format);
 ```
 
 ## **Development**
-This repo is in early development stage. PRs is wellcomed.
+This repo is in early development stage. PRs is welcomed.
 
 ## **Test**
 Just run from cli
