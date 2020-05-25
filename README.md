@@ -32,7 +32,7 @@ console.log(rupiah.format);
 ```
 
 ## **Separator**
-Default separator is configured as ```. ``` you can set custom prefix and suffix with this following API
+Default separator is configured as ```. ``` you can set custom separator with this following API
 
 ```ts
 import Rupiah from 'https://deno.land/x/rupiah/rupiah.ts'
