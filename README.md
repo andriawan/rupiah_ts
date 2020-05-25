@@ -7,6 +7,7 @@ import Rupiah from 'https://deno.land/x/rupiah_ts/rupiah.ts'
 
 let rupiah = new Rupiah(350000);
 console.log(rupiah.format);
+// result Rp. 350.000,00
 ```
 ## **Terbilang**
 You can also make number to terbilang (words version of rupiah)
