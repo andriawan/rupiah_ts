@@ -1,5 +1,5 @@
 # Rupiah
-### Indonesian Currency (format number to indonesian currency)
+### Indonesian Currency (format number to indonesian currency) based on Standart PUEBI format
 
 ## **Installation in Deno**
 ```ts
@@ -20,7 +20,7 @@ console.log(rupiah.terbilang);
 ```
 
 ## **Set Prefix and Suffix**
-Default prefix is configured as ```Rp. ``` and suffix is configured as ```,00``` you can set custom prefix and suffix with this following API
+Default prefix is configured as ```Rp``` and suffix is configured as ```,00``` you can set custom prefix and suffix with this following API
 
 ```ts
 import Rupiah from 'https://deno.land/x/rupiah/rupiah.ts'
@@ -29,6 +29,7 @@ let rupiah = new Rupiah(350000);
 rupiah.setPrefix = "RP";
 rupiah.setSuffix = ",-";
 console.log(rupiah.format);
+// result Rp350.000,-
 ```
 
 ## **Separator**
@@ -58,4 +59,6 @@ deno test
 - [x] Terbilang
 
 ## **Miscellaneous**
-This work is inspired by gist from https://gist.github.com/faisalman/845309 with refactoring code into more modern javascript way. Terbilang version is inspired by stackexchange thread https://codereview.stackexchange.com/questions/90349/changing-number-to-words-in-javascript
+- This work is inspired by gist from https://gist.github.com/faisalman/845309 with refactoring code into more modern javascript way. 
+- Terbilang version is inspired by stackexchange thread https://codereview.stackexchange.com/questions/90349/changing-number-to-words-in-javascript
+- Standart Rupiah format is taken from https://ivanlanin.github.io/puebi/kata/angka-dan-bilangan/
