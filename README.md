@@ -7,7 +7,7 @@ import Rupiah from 'https://deno.land/x/rupiah_ts/rupiah.ts'
 
 let rupiah = new Rupiah(350000);
 console.log(rupiah.format);
-// result Rp. 350.000,00
+// result Rp350.000,00
 ```
 ## **Terbilang**
 You can also make number to terbilang (words version of rupiah)
@@ -26,7 +26,7 @@ Default prefix is configured as ```Rp. ``` and suffix is configured as ```,00```
 import Rupiah from 'https://deno.land/x/rupiah/rupiah.ts'
 
 let rupiah = new Rupiah(350000);
-rupiah.setPrefix = "RP .";
+rupiah.setPrefix = "RP";
 rupiah.setSuffix = ",-";
 console.log(rupiah.format);
 ```
