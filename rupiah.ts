@@ -1,6 +1,6 @@
 class Rupiah {
   private rawNumber: number = 0;
-  private prefix: string = "Rp. ";
+  private prefix: string = "Rp.";
   private suffix: string = ",00";
   private separator: string = ".";
   static readonly ANGKA_DASAR = [
